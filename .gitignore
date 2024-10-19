@@ -5,12 +5,48 @@
 .gradle/
 build
 
-
-# idea config
-.idea
-
 # old stages
 /Smart Calculator with Java/*
 !/Smart Calculator with Java/task/
 /Smart Calculator with Java/task/*
 !/Smart Calculator with Java/task/src
+
+# Ignore build outputs
+/build/
+/out/
+
+# Ignore IntelliJ IDEA specific files
+/.idea/
+/*.iml
+
+# Ignore Eclipse specific files
+/.project
+/.classpath
+/.settings/
+
+# Ignore Gradle Wrapper JAR
+/gradle/wrapper/gradle-wrapper.jar
+
+# Ignore MacOS specific files
+.DS_Store
+
+# Ignore Windows specific files
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore compiled Java files
+*.class
+
+# Ignore generated files like JARs
+*.jar
+*.war
+*.ear
+
+# Ignore Gradle caches and logs
+.gradle/
